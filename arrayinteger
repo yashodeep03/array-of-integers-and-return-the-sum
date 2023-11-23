@@ -1,0 +1,13 @@
+#include<iostream>
+
+int main()
+{
+int myArray[]={2,1,4,8,10};
+int sum=0;
+for(int num:myArray)
+{
+sum+=num;
+}
+std::cout<<"sum of the array:"<<sum<<std::endl;
+return 0;
+}
